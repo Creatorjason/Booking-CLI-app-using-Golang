@@ -18,13 +18,13 @@ func main() {
 	//greetUsers(firstName, conferenceName)
 	for remTickets > 0 {
 		//fmt.Printf("Welcome to : %v \nTotal tickets %v of %v \n", conferenceName, remTickets, totalTickets
-		fmt.Printf("Enter your  first name:")
+		fmt.Println("Enter your  first name:")
 		fmt.Scan(&firstName)
-		fmt.Printf("Enter your  last name:")
+		fmt.Println("Enter your  last name:")
 		fmt.Scan(&lastName)
-		fmt.Printf("Enter your  email:")
+		fmt.Println("Enter your  email:")
 		fmt.Scan(&email)
-		fmt.Printf("Enter your amount:")
+		fmt.Println("Enter your amount:")
 		fmt.Scan(&amount)
 		var email_string = "@"
 		isValidName := len(firstName) >= 2 && len(lastName) >= 2
